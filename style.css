@@ -90,12 +90,20 @@ h3 {
 }
 
 .grade {
-    height: 854px;
+
 }
 
-.position .video {
+.block {
+    box-sizing: border-box;
+    display: block;
+    width: 919px;
+    height: 369px;
+}
+
+.video {
     position: absolute;
     z-index: 1;
+
     left: 95px;
 }
 
