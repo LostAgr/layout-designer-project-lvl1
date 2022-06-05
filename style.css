@@ -6,7 +6,12 @@ body {
     line-height: 1.6em;
     color: #2A2626;
     margin: 0 auto;
+    min-width: 1110px;
     max-width: 1440px;
+}
+
+.opensans {
+    font-family: 'Open Sans', sans-serif;
 }
 
 section {
@@ -16,9 +21,17 @@ section {
     padding-bottom: 100px;
 }
 
-.position2 {
+.position {
     position: relative;
+    box-sizing: border-box;
+}
+
+.position2 {
+    width: auto;
+    position: relative;
+    box-sizing: border-box;
     padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .width {
@@ -39,12 +52,6 @@ section {
 
 .background1 {
     background-color: #42413c;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 0;
 }
 
 .batton {
@@ -77,11 +84,6 @@ h3 {
     font-size: 34px;
 }
 
-.position {
-    position: relative;
-    box-sizing: border-box;
-}
-
 .img {
     position: absolute;
     height: 525px;
@@ -89,22 +91,26 @@ h3 {
     right: -270px;
 }
 
-.grade {
-
+.number {
+    padding-top: 24px;
+    padding-left: 24px;
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 40px;
 }
 
 .block {
     box-sizing: border-box;
+    position: relative;
     display: block;
-    width: 919px;
+    margin: 0 auto;
+    text-align: center;
     height: 369px;
+    z-index: 1;
 }
 
 .video {
-    position: absolute;
-    z-index: 1;
-
-    left: 95px;
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .conteiner {
@@ -140,28 +146,49 @@ h3 {
 
 .container-menu {
     display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: space-between;
     box-sizing: border-box;
-    padding-top: 200px;
     font-family: 'Neucha', cursive;
     flex-wrap: wrap;
-    justify-content: center;
+    margin-top: 100px;
+    height: 666px;
 }
 
 .card-name {
-    width: calc(100% / 3);
-    z-index: 1;
+    padding: 0;
+    width: 350px;
+    height: 323px;
 }
 
 .card {
-    width: calc(100% / 3);
+    width: 350px;
+    height: 323px;
+    background-color: #fff;
+}
+
+.size1 {
+    font-size: 32px;
+}
+
+.padding-card {
+    padding-left: 24px;
     margin: 0;
-    padding: 24px;
-    z-index: 1;
+}
+
+.padding-card2 {
+    padding-left: 24px;
 }
 
 .name-menu {
     font-size: 52px;
     line-height: 1.2em;
+    margin: 0;
+}
+
+.name {
+
 }
 
 span {
