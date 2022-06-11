@@ -33,6 +33,11 @@ body {
     padding-bottom: 100px;
 }
 
+.section3 {
+    width: auto;
+    margin: 100px 165px 0px 165px;
+}
+
 .section5 {
     height: 100%;
     padding-top: 100px;
@@ -93,6 +98,59 @@ body {
     opacity: 0.1;
 }
 
+.foot {
+    margin-top: 60px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.marg-foot-left {
+    padding: 55px;
+}
+
+.marg-foot-right {
+    float: right;
+    padding-right: 55px;
+}
+
+.size-box {
+    width: 423px;
+    height: 50px;
+    padding: 15px;
+}
+
+input {
+    display: inline-block;
+    border: 0 solid;
+    height: 20px;
+    width: 100%;
+    padding: 15px;
+}
+
+button {
+    border: 0 solid;
+    color: #fff;
+    background-color: #FE8A02;
+    padding: 15px 25px;
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.batton:hover {
+    background-color: #EA7600;
+}
+
+button:hover {
+    background-color: #EA7600;
+}
+
+.border-box {
+    height: 50px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
 .marginbot {
     margin-bottom: 0;
 }
@@ -102,12 +160,17 @@ body {
     background-color: #42413c;
 }
 
+.background4 {
+    background-color: #42413c;
+}
+
 .backg {
     position: relative;
     background-color: #f5f4f0;
 }
 
 .backg1 {
+    position: relative;
     background-color: #b09a81;
 }
 
@@ -182,8 +245,6 @@ h3 {
 }
 
 .number {
-    padding-top: 24px;
-    padding-left: 24px;
     font-size: 64px;
     line-height: 1;
     margin-bottom: 40px;
@@ -197,6 +258,13 @@ h3 {
     text-align: center;
     height: 369px;
     z-index: 1;
+}
+
+.size5 {
+    padding: 0 165px;
+    font-size: 34px;
+    color: #fff;
+    line-height: 1.2em;
 }
 
 .video {
@@ -251,12 +319,22 @@ h3 {
     column-gap: 68px;
 }
 
+.margin-foot1 {
+    margin: 38px 0px 9px 0px;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
 .align {
     text-align: center;
 }
 
 .margin0 {
     margin: 0;
+}
+
+.size16 {
+    font-size: 16px;
 }
 
 .margin {
@@ -276,7 +354,7 @@ h3 {
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.card:hover {
+.card:hover, .card:hover h3 {
     color: #fff;
     background-color: #FE8A02;
 }
@@ -299,26 +377,55 @@ h3 {
 }
 
 .card {
+    box-sizing: border-box;
+    padding: 24px;
     color: #2a2626;
     width: 350px;
     height: 323px;
     background-color: #fff;
 }
 
+.margin11 {
+    margin: 38px 0 9px 0
+}
+
+.padd-foot {
+    padding: 55px;
+}
+
+.padd-foot1 {
+    padding-right: 55px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-element {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.flex-element1 {
+    display: flex;
+    width: 100%;
+}
+
+.flex-element2 {
+    width: 50%;
+    padding-right: 55px;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+
 .padding-card {
-    padding-left: 24px;
-    padding-right: 24px;
     margin: 0;
 }
 
-.padding-card2 {
-    padding-left: 24px;
-    padding-right: 24px;
-}
-
 .padding-card3 {
-    padding-left: 24px;
-    padding-right: 24px;
     margin-top: 12px;
 }
 
