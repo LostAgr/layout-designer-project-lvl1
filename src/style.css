@@ -18,6 +18,10 @@ body {
     font-family: 'Neucha', cursive;
 }
 
+.flex {
+    display: flex;
+}
+
 .section {
     width: 1110px;    
     padding-top: 100px;
