@@ -22,6 +22,10 @@ body {
     display: flex;
 }
 
+.flex1 {
+    flex: 1;
+}
+
 .section {
     width: 1110px;    
     padding-top: 100px;
@@ -147,7 +151,9 @@ button:hover {
 }
 
 .batton {
+    display: block;
     box-sizing: border-box;
+    width: max-content;
     margin-top: 30px;
     padding: 12px 24px;
     font-weight: bold;
@@ -224,7 +230,8 @@ h3 {
 }
 
 .coulumn-text {
-    width: calc((100% / 2) - 30px);
+    display: flex;
+    column-gap: 30px;
 }
 
 .fon {
