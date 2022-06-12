@@ -183,11 +183,7 @@ h3 {
 
 .block {
     position: relative;
-    box-sizing: border-box;
-    display: block;
     height: 369px;
-    margin: 0 auto;
-    text-align: center;
     z-index: 1;
 }
 
@@ -345,8 +341,8 @@ svg {
     line-height: 1.2em;
 }
 
-span {
-    color: #42413c;
+.margin-bottom30 {
+    margin-bottom: 30px;
 }
 
 .white {
