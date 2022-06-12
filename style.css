@@ -115,6 +115,11 @@ button:hover {
     background-color: #EA7600;
 }
 
+.marg12 {
+    margin-top: 27px;
+    margin-bottom: 30px;
+}
+
 .marginbot {
     margin-bottom: 0;
 }
