@@ -171,6 +171,7 @@ h1 {
 
 h2 {
     font-size: 60px;
+    color: #FE8A02;
 }
 
 h3 {
@@ -216,9 +217,12 @@ h3 {
     text-decoration: none;
 }
 
+.height {
+    height: 434px;
+}
+
 .coloum {
     column-count: 2;
-    column-gap: 30px;
 }
 
 .text {
