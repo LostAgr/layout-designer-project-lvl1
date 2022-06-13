@@ -188,7 +188,7 @@ h3 {
 
 .number {
     font-size: 64px;
-    line-height: 1;
+    line-height: 70px;
     margin-bottom: 40px;
 }
 
@@ -352,6 +352,15 @@ svg {
 
 .padding-card3 {
     margin-top: 12px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.margin24 {
+    margin: 16px 0px;
 }
 
 .name-menu {
