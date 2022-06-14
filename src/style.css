@@ -338,7 +338,7 @@ h3 {
 
 .flex-element2 {
     width: 50%;
-    padding-right: 55px;
+    padding: 0px 55px;
 }
 
 svg {
