@@ -26,6 +26,10 @@ body {
     flex: 1;
 }
 
+.box-sizing {
+    box-sizing: border-box;
+}
+
 .section {
     width: 1110px;    
     padding: 100px 0px;
@@ -335,8 +339,9 @@ h3 {
 }
 
 .flex-element2 {
+    box-sizing: border-box;
     width: 50%;
-    padding: 0px 55px;
+    padding: 0px 55px 0px 10px;
 }
 
 svg {
