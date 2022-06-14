@@ -1,13 +1,13 @@
-body {    
-    min-width: 1110px;
-    max-width: 1440px;    
-    margin: 0 auto;    
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6em;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    color: #2A2626;
+body {
+        min-width: 1110px;
+        max-width: 1440px;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6em;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        color: #2A2626;
 }
 
 .opensans {
@@ -31,19 +31,19 @@ body {
 }
 
 .section {
-    width: 1110px;    
+    width: 1110px;
     padding: 100px 0px;
     margin: 0 auto;
 }
 
 .section1 {
-    width: 1110px;    
+    width: 1110px;
     padding: 0px;
     margin: 100px 165px 0px 165px;
 }
 
 .section2 {
-    width: 1110px;    
+    width: 1110px;
     padding: 0px 0px 111px 0px;
     margin: 0 auto;
 }
@@ -57,10 +57,10 @@ body {
     box-sizing: border-box;
 }
 
-.position2 {  
+.position2 {
     position: relative;
     box-sizing: border-box;
-    width: auto;  
+    width: auto;
     padding-top: 0px;
     padding-bottom: 0px;
 }
@@ -130,7 +130,7 @@ button:hover {
 }
 
 .margin12 {
-   margin-top: 12px; 
+   margin-top: 12px;
 }
 
 .marg12 {
@@ -301,7 +301,7 @@ h3 {
     text-align: center;
 }
 
-.card:hover, .card:hover h3 {
+.card:hover, .card:hover h3, .card1:hover, .card1:hover h3 {
     color: #fff;
     background-color: #FE8A02;
 }
@@ -342,7 +342,7 @@ h3 {
 }
 
 .margin11 {
-    margin: 38px 0 9px 0
+    margin: 38px 0 9px 0;
 }
 
 .padd-foot {
