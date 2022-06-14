@@ -48,6 +48,12 @@ body {
     margin: 0 auto;
 }
 
+.section3 {
+    width: 1110px;    
+    padding: 93px 0px;
+    margin: 0 auto;
+}
+
 .relative {
     position: relative;
 }
