@@ -48,12 +48,6 @@ body {
     margin: 0 auto;
 }
 
-.section3 {
-    width: 1110px;    
-    padding: 93px 0px;
-    margin: 0 auto;
-}
-
 .relative {
     position: relative;
 }
@@ -332,7 +326,7 @@ h3 {
     box-sizing: border-box;
     width: 350px;
     height: 323px;
-    padding: 24px;
+    padding: 22px 24px 22px 24px;
     color: #2a2626;
     background-color: #fff;
 }
@@ -342,7 +336,7 @@ h3 {
     width: 350px;
     height: 348px;
     margin-top: 20px;
-    padding: 24px;
+    padding: 22px 24px 22px 24px;
     color: #2a2626;
     background-color: #fff;
 }
