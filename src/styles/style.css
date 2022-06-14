@@ -1,11 +1,7 @@
 body {
   min-width: 1110px;
   max-width: 1440px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.6em;
+  font: 16px/1.6em "Open Sans", sans-serif;
   color: #2A2626;
   margin: 0 auto;
 }
