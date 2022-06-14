@@ -2,7 +2,7 @@ body {
   min-width: 1110px;
   max-width: 1440px;
   margin: 0 auto;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -11,11 +11,11 @@ body {
 }
 
 .opensans {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .neucha {
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
 }
 
 .flex {
@@ -179,7 +179,7 @@ h1, h2, h3 {
   margin: 0;
   font-weight: 400;
   line-height: 1.2em;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
   font-style: normal;
 } 
 
@@ -313,7 +313,7 @@ h3 {
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-  font-family: 'Neucha', cursive;
+  font-family: "Neucha", cursive;
 }
 
 .card-name {
