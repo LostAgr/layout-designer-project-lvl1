@@ -1,9 +1,9 @@
 body {
-  color: #2a2626;
-
   min-width: 1110px;
   max-width: 1440px;
   margin: 0 auto;
+
+  color: #2a2626;
 
   font: 16px/1.6em "Open Sans", sans-serif;
 }
