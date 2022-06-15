@@ -77,7 +77,9 @@ body {
 .back {
   margin: 0;
   padding-left: 10px;
+
   font-size: 14px;
+
   background-color: #b09a81;
 }
 
@@ -86,16 +88,20 @@ body {
 }
 
 .back1 {
-  font-size: 14px;
   margin: 0;
   padding-left: 10px;
+
+  font-size: 14px;
+
   background-color: #fff;
 }
 
 .background::before {
   position: absolute;
+
   width: 100%;
   height: 100%;
+
   content: "";
   background-image: url(../1/background.png);
   background-repeat: no-repeat;
@@ -104,22 +110,25 @@ body {
 }
 
 .foot {
-  font-size: 14px;
   text-align: center;
+  font-size: 14px;
 }
 
 input {
   border: 0 solid;
   height: 20px;
   width: 100%;
+
   padding: 15px;
 }
 
 button {
-  border: 0 solid;
   height: 50px;
   width: 70px;
+
   padding: 15px 25px;
+
+  border: 0 solid;
   color: #fff;
   background-color: #FE8A02;
   cursor: pointer;
@@ -156,20 +165,25 @@ button:hover {
 
 .backg {
   position: relative;
+
   background-color: #f5f4f0;
 }
 
 .backg1 {
   position: relative;
+
   background-color: #b09a81;
 }
 
 .batton {
   display: block;
+
   box-sizing: border-box;
   width: max-content;
+
   margin-top: 40px;
   padding: 12px 24px;
+
   font-weight: bold;
   background-color: #FE8A02;
   text-decoration: none;
@@ -181,10 +195,10 @@ p {
 
 h1, h2, h3 {
   margin: 0;
-  font-weight: 400;
+
   line-height: 1.2em;
-  font-family: "Neucha", cursive;
-  font-style: normal;
+
+  font-family: Neucha, cursive;
 } 
 
 h1 {
@@ -193,34 +207,43 @@ h1 {
 
 h2 {
   font-size: 60px;
+
   color: #FE8A02;
 }
 
 h3 {
   font-size: 34px;
+
   color: #FE8A02;
 }
 
 .img {
   position: absolute;
+
   height: 525px;
   top: 55px;
   right: -270px;
 }
 
 .number {
+  margin-bottom: 36px;
+
   font-size: 64px;
   line-height: 70px;
-  margin-bottom: 36px;
 }
 
 .block {
   position: relative;
-  box-sizing: border-box;
+
   display: block;
+  box-sizing: border-box;
+
   height: 376px;
+
   margin: 0 auto;
+
   text-align: center;
+
   z-index: 1;
 }
 
@@ -230,7 +253,9 @@ h3 {
 
 .conteiner {
   display: flex;
+
   box-sizing: border-box;
+
   flex-wrap: nowrap;
   justify-content: space-between;
 }
@@ -258,12 +283,14 @@ h3 {
 
 .fon {
   margin: 0;
+
   font-size: 24px;
 }
 
 .fon1 {
   margin: 0;
   padding-top: 30px;
+
   font-size: 34px;
   line-height: 1.2em;
 }
@@ -271,6 +298,7 @@ h3 {
 .picture {
   width: 578px;
   height: 434px;
+
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
@@ -297,8 +325,8 @@ h3 {
 }
 
 .margin1 {
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin: 100px 0 20px;
+
 }
 
 .center {
@@ -312,35 +340,45 @@ h3 {
 
 .container-menu {
   display: flex;
+
   box-sizing: border-box;
+
   margin-top: 100px;
+
   flex-wrap: wrap;
   justify-content: space-between;
   align-content: space-between;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
 }
 
 .card-name {
-  padding: 0;
-  width: 350px;
   height: 323px;
+  width: 350px;
+
+  padding: 0;
 }
 
 .card {
   box-sizing: border-box;
+
   width: 350px;
   height: 323px;
+
   padding: 22px 24px 22px 24px;
+
   color: #2a2626;
   background-color: #F5F4F0;
 }
 
 .card1 {
   box-sizing: border-box;
+
   width: 350px;
   height: 348px;
+
   margin-top: 20px;
   padding: 22px 24px 22px 24px;
+
   color: #2a2626;
   background-color: #F5F4F0;
 }
@@ -359,17 +397,21 @@ h3 {
 
 .flex-element {
   box-sizing: border-box;
+
   width: 50%;
 }
 
 .flex-element1 {
   display: flex;
+
   width: 100%;
 }
 
 .flex-element2 {
   box-sizing: border-box;
+
   width: 50%;
+
   padding: 0px 55px 0px 10px;
 }
 
@@ -388,6 +430,7 @@ svg {
 
 .flex-column {
   display: flex;
+
   flex-direction: column;
 }
 
@@ -397,6 +440,7 @@ svg {
 
 .name-menu {
   margin: 0;
+  
   font-size: 52px;
   line-height: 1.2em;
 }
