@@ -32,21 +32,21 @@ body {
   width: 1110px;
 
   margin: 0 auto;
-  padding: 100px 0px;
+  padding: 100px 0;
 }
 
 .section1 {
   width: 1110px;
 
-  margin: 100px 165px 0px 165px;
-  padding: 0px;
+  margin: 100px 165px 0;
+  padding: 0;
 }
 
 .section2 {
   width: 1110px;
 
   margin: 0 auto;
-  padding: 0px 0px 111px 0px;
+  padding: 0 0 111px;
 }
 
 .relative {
@@ -55,19 +55,22 @@ body {
 
 .position {
   position: relative;
+
   box-sizing: border-box;
 }
 
 .position2 {
   position: relative;
+
   box-sizing: border-box;
   width: auto;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .width {
   width: 100%;
+
   margin: 0;
 }
 
