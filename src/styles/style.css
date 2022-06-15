@@ -102,44 +102,41 @@ body {
   width: 100%;
   height: 100%;
 
-  content: "";
   background-image: url(../1/background.png);
   background-repeat: no-repeat;
   background-size: cover;
+
+  content: "";
   opacity: 0.1;
 }
 
 .foot {
-  text-align: center;
   font-size: 14px;
+  text-align: center;
 }
 
 input {
-  border: 0 solid;
-  height: 20px;
   width: 100%;
+  height: 20px;
 
+  border: 0 solid;
   padding: 15px;
 }
 
 button {
-  height: 50px;
   width: 70px;
+  height: 50px;
 
   padding: 15px 25px;
 
-  border: 0 solid;
   color: #fff;
-  background-color: #FE8A02;
+  background-color: #fe8a02;
+  border: 0 solid;
   cursor: pointer;
 }
 
-.batton:hover {
-  background-color: #EA7600;
-}
-
 button:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
 
 .margin12 {
@@ -155,8 +152,8 @@ button:hover {
 }
 
 .background1 {
-  background-size: 100% 100%;
   background-color: #42413c;
+  background-size: 100% 100%;
 }
 
 .background4 {
@@ -185,8 +182,13 @@ button:hover {
   padding: 12px 24px;
 
   font-weight: bold;
-  background-color: #FE8A02;
+
+  background-color: #fe8a02;
   text-decoration: none;
+}
+
+.batton:hover {
+  background-color: #ea7600;
 }
 
 p {
@@ -208,13 +210,13 @@ h1 {
 h2 {
   font-size: 60px;
 
-  color: #FE8A02;
+  color: #fe8a02;
 }
 
 h3 {
   font-size: 34px;
 
-  color: #FE8A02;
+  color: #fe8a02;
 }
 
 .img {
@@ -335,7 +337,7 @@ h3 {
 
 .card:hover, .card:hover h3, .card1:hover, .card1:hover h3 {
   color: #fff;
-  background-color: #FE8A02;
+  background-color: #fe8a02;
 }
 
 .container-menu {
@@ -367,7 +369,7 @@ h3 {
   padding: 22px 24px 22px 24px;
 
   color: #2a2626;
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
 }
 
 .card1 {
@@ -380,7 +382,7 @@ h3 {
   padding: 22px 24px 22px 24px;
 
   color: #2a2626;
-  background-color: #F5F4F0;
+  background-color: #f5f4f0;
 }
 
 .margin11 {
@@ -440,7 +442,7 @@ svg {
 
 .name-menu {
   margin: 0;
-  
+
   font-size: 52px;
   line-height: 1.2em;
 }
