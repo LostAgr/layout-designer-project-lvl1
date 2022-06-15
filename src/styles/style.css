@@ -107,6 +107,7 @@ body {
   background-size: cover;
 
   opacity: 0.1;
+
   content: "";
 }
 
@@ -120,6 +121,7 @@ input {
   height: 20px;
 
   padding: 15px;
+
   border: 0 solid;
 }
 
@@ -185,6 +187,7 @@ button:hover {
   font-weight: bold;
 
   text-decoration: none;
+
   background-color: #fe8a02;
 }
 
@@ -196,14 +199,14 @@ p {
   margin: 0;
 }
 
-h1, 
-h2, 
+h1,
+h2,
 h3 {
   margin: 0;
 
   font-family: Neucha, cursive;
   line-height: 1.2em;
-} 
+}
 
 h1 {
   font-size: 72px;
@@ -245,9 +248,9 @@ h3 {
 
   height: 376px;
 
-  margin: 0 auto;
-
   z-index: 1;
+
+  margin: 0 auto;
 
   text-align: center;
 }
@@ -258,10 +261,10 @@ h3 {
 
 .conteiner {
   display: flex;
+  flex-wrap: nowrap;
 
   box-sizing: border-box;
 
-  flex-wrap: nowrap;
   justify-content: space-between;
 }
 
@@ -283,6 +286,7 @@ h3 {
 
 .coulumn-text {
   display: flex;
+
   column-gap: 30px;
 }
 
@@ -305,7 +309,8 @@ h3 {
   height: 434px;
 
   vertical-align: middle;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .inline {
