@@ -245,7 +245,7 @@ h3 {
   z-index: 1;
 
   display: block;
-  
+
   box-sizing: border-box;
 
   height: 376px;
@@ -496,4 +496,5 @@ span {
 }
 
 .blue {
-  color: #1085c5;}
+  color: #1085c5;
+}.
