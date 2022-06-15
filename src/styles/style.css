@@ -30,20 +30,23 @@ body {
 
 .section {
   width: 1110px;
-  padding: 100px 0px;
+
   margin: 0 auto;
+  padding: 100px 0px;
 }
 
 .section1 {
   width: 1110px;
-  padding: 0px;
+
   margin: 100px 165px 0px 165px;
+  padding: 0px;
 }
 
 .section2 {
   width: 1110px;
-  padding: 0px 0px 111px 0px;
+
   margin: 0 auto;
+  padding: 0px 0px 111px 0px;
 }
 
 .relative {
