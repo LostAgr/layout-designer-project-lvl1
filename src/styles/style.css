@@ -246,9 +246,9 @@ h3 {
   display: block;
   box-sizing: border-box;
 
-  height: 376px;
-
   z-index: 1;
+
+  height: 376px;
 
   margin: 0 auto;
 
@@ -262,10 +262,9 @@ h3 {
 .conteiner {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: space-between;
 
   box-sizing: border-box;
-
-  justify-content: space-between;
 }
 
 .text-decor {
@@ -336,36 +335,10 @@ h3 {
 
 .margin1 {
   margin: 100px 0 20px;
-
 }
 
 .center {
   text-align: center;
-}
-
-.card:hover, .card:hover h3, .card1:hover, .card1:hover h3 {
-  color: #fff;
-  background-color: #fe8a02;
-}
-
-.container-menu {
-  display: flex;
-
-  box-sizing: border-box;
-
-  margin-top: 100px;
-
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-between;
-  font-family: Neucha, cursive;
-}
-
-.card-name {
-  height: 323px;
-  width: 350px;
-
-  padding: 0;
 }
 
 .card {
@@ -391,6 +364,35 @@ h3 {
 
   color: #2a2626;
   background-color: #f5f4f0;
+}
+
+.card:hover,
+.card:hover h3,
+.card1:hover,
+.card1:hover h3 {
+  color: #fff;
+
+  background-color: #fe8a02;
+}
+
+.container-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+
+  margin-top: 100px;
+
+  font-family: Neucha, cursive;
+}
+
+.card-name {
+  width: 350px;
+  height: 323px;
+
+  padding: 0;
 }
 
 .margin11 {
